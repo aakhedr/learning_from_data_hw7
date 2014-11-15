@@ -1,9 +1,9 @@
 %% problems 1, 2
 data = load('train.txt');
 % training
-X = data(1:25, 1:2);            y = data(1:25, 3);
+X = data(26:end, 1:2);            y = data(26:end, 3);
 % validation
-Xval = data(26:end, 1:2);       yVal = data(26:end, 3);
+Xval = data(1:25, 1:2);       yVal = data(1:25, 3);
 % test set
 test = load('test.txt');
 Xtest = test(:, 1:2);           yTest = test(:, 3);
