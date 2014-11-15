@@ -1,4 +1,4 @@
-%% problems 1, 2
+%% problems 3, 4
 data = load('train.txt');
 % training
 X = data(26:end, 1:2);            y = data(26:end, 3);
