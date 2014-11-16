@@ -30,5 +30,5 @@ for i = 1:length(p)
     linearError = linearError + sum(((X(1, :) * h1) - ...
         y(1, :)).^2);
     
-    fprintf('\t%f\t%f\t%f\n', i, h0, linearError/ i);
+    fprintf('\t%f\t%f\t%f\n', i, h0, linearError/ 3);
 end
